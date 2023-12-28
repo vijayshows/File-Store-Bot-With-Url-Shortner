@@ -74,10 +74,10 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("✅ Main Channel", url="https://t.me/Quality_LinksZ"),
-                        InlineKeyboardButton("👍 Support Group", url="https://t.me/Quality_LinksZ")
+                        InlineKeyboardButton("✅ Main Channel", url="https://t.me/Quality_LinksZ")
                     ],
                     [
+                        InlineKeyboardButton("👍 Support Group", url="https://t.me/Quality_LinksZ"),
                         InlineKeyboardButton("🥳 Other Channels", url="https://t.me/Team_RockerS")
                     ]
                 ]
