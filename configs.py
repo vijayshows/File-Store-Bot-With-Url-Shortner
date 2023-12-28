@@ -39,6 +39,5 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 [Donate Me](https://t.me/KingVj01)
 """
   HOME_TEXT = """
-Hello, [{}](tg://user?id={})\n\n
-
-**This is New Movies and Series File Share Bot To get Instant Updates Please Join Our Main Channel ♥️**\n"""
+Hello, [{}](tg://user?id={})\n
+**This is New Movies and Series File Share Bot🔥. To get Instant Updates Please Join Our Main Channel ♥️**\n"""
