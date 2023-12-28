@@ -78,7 +78,7 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("👍 Support Group", url="https://t.me/Quality_LinksZ")
                     ],
                     [
-                        InlineKeyboardButton(🥳 Other Channels", url="https://t.me/Team_RockerS")
+                        InlineKeyboardButton("🥳 Other Channels", url="https://t.me/Team_RockerS")
                     ]
                 ]
             )
