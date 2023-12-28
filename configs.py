@@ -3,15 +3,17 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "8733404"))
   API_HASH = os.environ.get("API_HASH", "f19aed00b0c74abed0359016afc1733f")
+  
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6128151012:AAHPPwc_SVOd80gQcgDfTDPbkIpKgVJi8_c")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tamilan_Files_Bot")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001796299442"))
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001796299442"))
+
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002038837206"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "tnshort.net")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "ae8999b1a230fee55d762c4682e14321d29f7038")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "807374433"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://leecher:leecher@cluster0.606mkpi.mongodb.net/?retryWrites=true&w=majority")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001679142047")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001796299442"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -40,4 +42,4 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n
-**This is New Movies and Series File Share Bot🔥. To get Instant Updates Please Join Our Main Channel ♥️**\n"""
+**This is New Movies and Series File Share Bot ✨ To get Instant Updates Please Join Our Main Channel 💯**\n"""
