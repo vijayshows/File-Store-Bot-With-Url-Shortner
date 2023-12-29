@@ -74,11 +74,11 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("✅ Main Channel", url="https://t.me/Quality_LinksZ")
-                    ],
-                    [
                         InlineKeyboardButton("👍 Support Group", url="https://t.me/Quality_LinksZ"),
                         InlineKeyboardButton("🥳 Other Channels", url="https://t.me/Team_RockerS")
+                    ],
+                    [
+                        InlineKeyboardButton("✅ Main Channel", url="https://t.me/Quality_LinksZ")
                     ]
                 ]
             )
@@ -406,12 +406,11 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/Quality_LinksZ"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/Quality_LinksZ")
+                        InlineKeyboardButton("👍 Support Group", url="https://t.me/Quality_LinksZ"),
+                        InlineKeyboardButton("🥳 Other Channels", url="https://t.me/Team_RockerS")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("✅ Main Channel", url="https://t.me/Quality_LinksZ")
                     ]
                 ]
             )
