@@ -8,7 +8,7 @@ class Config(object):
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tamilan_Files_Bot")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001796299442"))
 
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001796299442")) #1002038837206
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002038837206")) 
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "tnshort.net")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "ae8999b1a230fee55d762c4682e14321d29f7038")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "807374433"))
