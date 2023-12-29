@@ -4,9 +4,14 @@ class Config(object):
   API_ID = int(os.environ.get("API_ID", "8733404"))
   API_HASH = os.environ.get("API_HASH", "f19aed00b0c74abed0359016afc1733f")
   
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6529788493:AAFp49RQQTHhv1P3DMxQUMMZUAzvQeWDkP0")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "QTL_Series_Bot")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002119561803"))
+  #BOT_TOKEN = os.environ.get("BOT_TOKEN", "6529788493:AAFp49RQQTHhv1P3DMxQUMMZUAzvQeWDkP0")
+  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "QTL_Series_Bot")
+  #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002119561803"))
+  #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002028128566")
+
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6935162436:AAEnADtggm3byljfofIaQuU65m__ZbMnLhM")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_Series_Bot")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002035253761"))
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002028128566")
   
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002038837206")) 
