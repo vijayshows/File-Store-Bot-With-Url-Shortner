@@ -3,14 +3,7 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "8733404"))
   API_HASH = os.environ.get("API_HASH", "f19aed00b0c74abed0359016afc1733f")
-
-  #Tamilan_Files_Bot
-'''  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6128151012:AAHPPwc_SVOd80gQcgDfTDPbkIpKgVJi8_c")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "QTL_Series_Bot")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001796299442")) '''
-  #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001679142047")
-
-  #QTL_Series_Bot
+  
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6529788493:AAFp49RQQTHhv1P3DMxQUMMZUAzvQeWDkP0")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "QTL_Series_Bot")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002119561803"))
