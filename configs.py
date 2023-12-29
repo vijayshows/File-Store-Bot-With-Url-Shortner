@@ -3,17 +3,25 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "8733404"))
   API_HASH = os.environ.get("API_HASH", "f19aed00b0c74abed0359016afc1733f")
-  
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6128151012:AAHPPwc_SVOd80gQcgDfTDPbkIpKgVJi8_c")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tamilan_Files_Bot")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001796299442"))
 
+  #Tamilan_Files_Bot
+'''  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6128151012:AAHPPwc_SVOd80gQcgDfTDPbkIpKgVJi8_c")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "QTL_Series_Bot")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001796299442")) '''
+  #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001679142047")
+
+  #QTL_Series_Bot
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6529788493:AAGVic3JfsUmBHU_m243wR5ZSI7J5nVIsH4")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "QTL_Series_Bot")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002119561803"))
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002028128566")
+  
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002038837206")) 
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "tnshort.net")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "ae8999b1a230fee55d762c4682e14321d29f7038")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "807374433"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://leecher:leecher@cluster0.606mkpi.mongodb.net/?retryWrites=true&w=majority")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001679142047")
+  
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
