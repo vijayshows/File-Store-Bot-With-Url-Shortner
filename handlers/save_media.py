@@ -23,41 +23,7 @@ def humanbytes(size):
     while size > power:
         size /= power
         n += 1
-    ChatGPT 3.5
-
-User
-def humanbytes(size):
-    # https://stackoverflow.com/a/49361727/4723940
-    # 2**10 = 1024
-    if not size:
-        return ""
-    power = 2**10
-    n = 0
-    Dic_powerN = {0: ' ', 1: 'K', 2: 'M', 3: 'G', 4: 'T'}
-    while size > power:
-        size /= power
-        n += 1
-    return str(round(size, 2)) + "" + Dic_powerN[n] + 'B'
-
-If it is MB return integer value without . If it's GB the return 1.00 or 2.56 2decimal values after .
-
-ChatGPT
-You can modify the humanbytes function like this to achieve the desired format:
-
-python
-Copy code
-def humanbytes(size):
-    if not size:
-        return ""
-
-    power = 2**10
-    n = 0
-    Dic_powerN = {0: ' ', 1: 'K', 2: 'M', 3: 'G', 4: 'T'}
-
-    while size > power:
-        size /= power
-        n += 1
-
+    
     formatted_size = round(size, 2) if n > 1 else int(size)
     return f"{formatted_size:.2f}" + Dic_powerN[n] + 'B' if n != 2 else f"{formatted_size}" + 'B'
   #  return str(round(size, 2)) + "" + Dic_powerN[n] + 'B'
