@@ -23,10 +23,10 @@ def humanbytes(size):
     while size > power:
         size /= power
         n += 1
-    
-    formatted_size = round(size, 2) if n != 2 else int(size)
-    return f"{formatted_size:.2f}" + Dic_powerN[n] + 'B' if n != 2 else f"{formatted_size}" + Dic_powerN[n] + 'B'
-  #  return str(round(size, 2)) + "" + Dic_powerN[n] + 'B'
+    return str(round(size, 2)) + "" + Dic_powerN[n] + 'B'
+   # formatted_size = round(size, 2) if n != 2 else int(size)
+    # return f"{formatted_size:.2f}" + Dic_powerN[n] + 'B' if n != 2 else f"{formatted_size}" + Dic_powerN[n] + 'B'
+   
 
 def generate_random_alphanumeric():
     """Generate a random 8-letter alphanumeric string."""
