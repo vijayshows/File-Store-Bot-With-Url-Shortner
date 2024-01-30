@@ -24,6 +24,11 @@ class Config(object):
   #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002035253761"))
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002028128566")
 
+  #BOT_TOKEN = os.environ.get("BOT_TOKEN", "5780282761:AAG9vcgAVK__K1btiy212Ao-9E_rlpelADw")
+  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "Vijay_Tv_SerialsBot")
+  #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002087036746"))
+  #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+
   #DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002087036746")) #QL_Movie_Links_Bot
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002038837206")) #Common
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "tnshort.net")
