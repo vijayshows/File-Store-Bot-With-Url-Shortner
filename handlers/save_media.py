@@ -65,12 +65,6 @@ async def forward_to_channel(bot: Client, message: Message, editable: Message):
 
 async def save_batch_media_in_channel(bot: Client, editable: Message, message_ids: list):
     try:
-
-        # get media type
-        media = editable.document or editable.video or editable.audio or editable.photo
-        
-        # get file size
-        file_size = humanbytes(media.file_size)
         message_ids_str = ""
         for message in (await bot.get_messages(chat_id=editable.chat.id, message_ids=message_ids)):
             sent_message = await forward_to_channel(bot, message, editable)
@@ -89,7 +83,7 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
         share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=Tamilan_{str_to_b64(str(SaveMessage.id))}"
         short_link = get_short(share_link)
         await editable.edit(
-            f"**Batch Files Stored in my Database!**\n\nHere is the Permanent Link of your files: **Short Link - ** <code>{file_size} - {short_link}</code> \n\n**Original Link - ** <code>{file_size} - {share_link}</code> \n\n"
+            f"**Batch Files Stored in my Database!**\n\nHere is the Permanent Link of your files: **Short Link - ** <code>{short_link}</code> \n\n**Original Link - ** <code>{share_link}</code> \n\n"
             f"Just Click the link to get your files!",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Original Link", url=share_link),
