@@ -67,7 +67,7 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
     try:
 
         # get media type
-        media = message.document or message.video or message.audio or message.photo
+        media = editable.document or editable.video or editable.audio or editable.photo
         
         # get file size
         file_size = humanbytes(media.file_size)
