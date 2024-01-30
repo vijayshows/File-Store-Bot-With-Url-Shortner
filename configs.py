@@ -9,10 +9,10 @@ class Config(object):
   #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002087036746"))
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
   
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "5925688295:AAFjVjgfg_m1f4Wd6B3AaqBAm8vFkH31guk")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tamilan_Rocks1_Bot")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001884285982"))
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001859384286")
+  #BOT_TOKEN = os.environ.get("BOT_TOKEN", "5925688295:AAFjVjgfg_m1f4Wd6B3AaqBAm8vFkH31guk")
+  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tamilan_Rocks1_Bot")
+  #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001884285982"))
+  #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001859384286")
   
   #BOT_TOKEN = os.environ.get("BOT_TOKEN", "6529788493:AAFp49RQQTHhv1P3DMxQUMMZUAzvQeWDkP0")
   #BOT_USERNAME = os.environ.get("BOT_USERNAME", "QTL_Series_Bot")
@@ -24,13 +24,14 @@ class Config(object):
   #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002035253761"))
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002028128566")
 
-  #BOT_TOKEN = os.environ.get("BOT_TOKEN", "5780282761:AAG9vcgAVK__K1btiy212Ao-9E_rlpelADw")
-  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "Vijay_Tv_SerialsBot")
-  #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002087036746"))
-  #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "5780282761:AAG9vcgAVK__K1btiy212Ao-9E_rlpelADw")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Vijay_Tv_SerialsBot")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002117688872"))
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002117688872")) #Vijay_Tv_SerialsBot
   #DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002087036746")) #QL_Movie_Links_Bot
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002038837206")) #Common
+  #DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002038837206")) #Common
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "tnshort.net")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "ae8999b1a230fee55d762c4682e14321d29f7038")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "807374433"))
