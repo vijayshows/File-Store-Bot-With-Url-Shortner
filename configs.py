@@ -30,8 +30,8 @@ class Config(object):
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 
   #DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002117688872")) #Vijay_Tv_SerialsBot
-  #DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002087036746")) #QL_Movie_Links_Bot
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002038837206")) #Common
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002087036746")) #QL_Movie_Links_Bot
+  #DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002038837206")) #Common
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "tnshort.net")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "ae8999b1a230fee55d762c4682e14321d29f7038")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "807374433"))
