@@ -4,20 +4,20 @@ class Config(object):
   API_ID = int(os.environ.get("API_ID", "8733404"))
   API_HASH = os.environ.get("API_HASH", "f19aed00b0c74abed0359016afc1733f")
 
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6898447547:AAFj3fAep2W2O69lilL3jv-TNluMJE9EnyI")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_Movie_Links_Bot")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002087036746"))
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+  #BOT_TOKEN = os.environ.get("BOT_TOKEN", "6898447547:AAFj3fAep2W2O69lilL3jv-TNluMJE9EnyI")
+  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_Movie_Links_Bot")
+  #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002087036746"))
+  #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
   
   #BOT_TOKEN = os.environ.get("BOT_TOKEN", "5925688295:AAFjVjgfg_m1f4Wd6B3AaqBAm8vFkH31guk")
   #BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tamilan_Rocks1_Bot")
   #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001884285982"))
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001859384286")
   
-  #BOT_TOKEN = os.environ.get("BOT_TOKEN", "6529788493:AAFp49RQQTHhv1P3DMxQUMMZUAzvQeWDkP0")
-  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "QTL_Series_Bot")
-  #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002119561803"))
-  #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002028128566")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6529788493:AAFp49RQQTHhv1P3DMxQUMMZUAzvQeWDkP0")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "QTL_Series_Bot")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002119561803"))
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002028128566")
 
   #BOT_TOKEN = os.environ.get("BOT_TOKEN", "6935162436:AAH9dHsQ-0cpO-JAUi1B_voh0K0dwzqeUB8")
   #BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_Series_Bot")
@@ -30,8 +30,8 @@ class Config(object):
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 
   #DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002117688872")) #Vijay_Tv_SerialsBot
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002087036746")) #QL_Movie_Links_Bot
-  #DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002038837206")) #Common
+  #DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002087036746")) #QL_Movie_Links_Bot
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002038837206")) #Common
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "tnshort.net")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "ae8999b1a230fee55d762c4682e14321d29f7038")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "807374433"))
