@@ -9,15 +9,15 @@ class Config(object):
   #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002087036746"))
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001679142047")
   
-  #BOT_TOKEN = os.environ.get("BOT_TOKEN", "6082149166:AAHlq5VTOwc3T97EB_wndDsq1m5kJ27wtHw")
-  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tamilan_Rocks2_Bot")
-  #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001884285982"))
-  #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001859384286")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7154736395:AAGtehLKr6izxnITyApzAu8uILs84DQrw0w")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tamilan_Rocks3_Bot")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001884285982"))
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001859384286")
 
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6699193519:AAEDwcIK_PeHDyohxMrLVZcP3sAnBlVb8ik")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_Hollywood_Dubbed_Movies_Bot")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002025122235"))
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001679142047")
+  #BOT_TOKEN = os.environ.get("BOT_TOKEN", "6699193519:AAEDwcIK_PeHDyohxMrLVZcP3sAnBlVb8ik")
+  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_Hollywood_Dubbed_Movies_Bot")
+  #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002025122235"))
+  #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001679142047")
   
   #BOT_TOKEN = os.environ.get("BOT_TOKEN", "6529788493:AAFp49RQQTHhv1P3DMxQUMMZUAzvQeWDkP0")
   #BOT_USERNAME = os.environ.get("BOT_USERNAME", "QTL_Series_Bot")
