@@ -9,8 +9,8 @@ class Config(object):
   #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002087036746"))
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001679142047")
   
-  #BOT_TOKEN = os.environ.get("BOT_TOKEN", "7154736395:AAGtehLKr6izxnITyApzAu8uILs84DQrw0w")
-  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tamilan_Rocks3_Bot")
+  #BOT_TOKEN = os.environ.get("BOT_TOKEN", "6533842456:AAHwGUznQK5Ean2n3bfsdq8rPj63Dg4Rj3U")
+  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tamilan_Rocks4_Bot")
   #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001884285982"))
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001859384286")
 
