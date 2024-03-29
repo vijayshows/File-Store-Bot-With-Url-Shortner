@@ -9,10 +9,10 @@ class Config(object):
   #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002087036746"))
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001679142047")
   
-  #BOT_TOKEN = os.environ.get("BOT_TOKEN", "6533842456:AAHwGUznQK5Ean2n3bfsdq8rPj63Dg4Rj3U")
-  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tamilan_Rocks4_Bot")
-  #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001884285982"))
-  #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001859384286")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6533842456:AAHwGUznQK5Ean2n3bfsdq8rPj63Dg4Rj3U")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tamilan_Rocks4_Bot")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001884285982"))
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001859384286")
 
   #BOT_TOKEN = os.environ.get("BOT_TOKEN", "6699193519:AAEDwcIK_PeHDyohxMrLVZcP3sAnBlVb8ik")
   #BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_Hollywood_Dubbed_Movies_Bot")
@@ -41,8 +41,8 @@ class Config(object):
 
   #DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002117688872")) #Vijay_Tv_SerialsBot
   #DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002087036746")) #QL_Movie_Links_Bot
-  #DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002038837206")) #Common
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002107895168")) #Adult
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002038837206")) #Common
+  #DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002107895168")) #Adult
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "publicearn.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "9da9e04c687cef048d60fb4ed5dbefa59c388647")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "807374433"))
