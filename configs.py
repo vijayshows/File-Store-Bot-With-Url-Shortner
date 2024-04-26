@@ -7,7 +7,7 @@ class Config(object):
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_Movie_Links_Bot")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002087036746"))
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001679142047")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002025747602")
 
   #BOT_TOKEN = os.environ.get("BOT_TOKEN", "7170082838:AAHS8JwuupFmSzmTijvahIIoA-cUwU5u9EA")
   #BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_MoviesBot")
