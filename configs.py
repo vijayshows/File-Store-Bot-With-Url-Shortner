@@ -4,10 +4,10 @@ class Config(object):
   API_ID = int(os.environ.get("API_ID", "8733404"))
   API_HASH = os.environ.get("API_HASH", "f19aed00b0c74abed0359016afc1733f")
 
-  #BOT_TOKEN = os.environ.get("BOT_TOKEN", "6898447547:AAFj3fAep2W2O69lilL3jv-TNluMJE9EnyI")
-  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_Movie_Links_Bot")
-  #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002087036746"))
-  #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001679142047")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_Movie_Links_Bot")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002087036746"))
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001679142047")
 
   #BOT_TOKEN = os.environ.get("BOT_TOKEN", "7170082838:AAHS8JwuupFmSzmTijvahIIoA-cUwU5u9EA")
   #BOT_USERNAME = os.environ.get("BOT_USERNAME", "QL_MoviesBot")
@@ -34,10 +34,10 @@ class Config(object):
   #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002035253761"))
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002028128566")
 
-  BOT_TOKEN = os.environ.get()
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Vijay_Tv_SerialsBot")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002117688872"))
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001728131839")
+  #BOT_TOKEN = os.environ.get()
+  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "Vijay_Tv_SerialsBot")
+  #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002117688872"))
+  #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001728131839")
 
   #BOT_TOKEN = os.environ.get("BOT_TOKEN", "6885403506:AAEC0alu3bCjcCgzIMGqk6rG7540vmCkqP0")
   #BOT_USERNAME = os.environ.get("BOT_USERNAME", "AdultOnly18_Bot")
