@@ -39,7 +39,7 @@ class Config(object):
   #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002117688872"))
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001728131839")
 
-  #BOT_TOKEN = os.environ.get("BOT_TOKEN", "6885403506:AAEC0alu3bCjcCgzIMGqk6rG7540vmCkqP0")
+  #BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
   #BOT_USERNAME = os.environ.get("BOT_USERNAME", "AdultOnly18_Bot")
   #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002107895168"))
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002138948839")
