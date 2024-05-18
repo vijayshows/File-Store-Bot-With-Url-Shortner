@@ -15,7 +15,7 @@ class Config(object):
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002025747602")
 
   #BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "SunShows_Bot")
+  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "ShareMoviesQLBot")
   #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002007792800"))
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002025747602")
   
@@ -45,7 +45,7 @@ class Config(object):
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001728131839")
 
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "ShareMoviesQLBot")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "SunShows_Bot")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002001724354"))
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001728131839")
 
