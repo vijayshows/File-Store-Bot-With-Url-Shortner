@@ -14,10 +14,10 @@ class Config(object):
   #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001924724963"))
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002025747602")
 
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "ShareMoviesQLBot")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002007792800"))
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002025747602")
+  #BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+  #BOT_USERNAME = os.environ.get("BOT_USERNAME", "SunShows_Bot")
+  #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002007792800"))
+  #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002025747602")
   
   #BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
   #BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tamilan_Rocks6_Bot")
@@ -43,6 +43,11 @@ class Config(object):
   #BOT_USERNAME = os.environ.get("BOT_USERNAME", "Vijay_Tv_SerialsBot")
   #LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002117688872"))
   #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001728131839")
+
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "ShareMoviesQLBot")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002001724354"))
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001728131839")
 
   #BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
   #BOT_USERNAME = os.environ.get("BOT_USERNAME", "AdultOnly18_Bot")
